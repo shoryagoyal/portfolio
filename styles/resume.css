@@ -1,0 +1,33 @@
+.resume {
+  width: 90%;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+.profile-links {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: 0 auto;
+}
+.resume-content {
+  width: 90%;
+  margin: 0 auto;
+}
+ul {
+  margin-left: 18px;
+}
+.achievements-list-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3px;
+}
+ul:first-child {
+  margin-top: 10px;
+}
+.achievement-description {
+  flex: 4;
+}
+.achievement-certification-link {
+  text-align: end;
+  flex: 1;
+}

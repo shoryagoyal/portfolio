@@ -1,0 +1,11 @@
+.flex-styles {
+  display: flex;
+  justify-content: space-between;
+}
+.link-styles {
+  text-decoration: none;
+  color: black;
+}
+.link-styles:hover {
+  color: rgb(174, 96, 1);
+}

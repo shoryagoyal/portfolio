@@ -1,0 +1,93 @@
+.achievement {
+  width: 70%;
+  margin: 0 auto;
+}
+.achievement-main-heading {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+.achievement-block {
+  display: flex;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.achievement-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex: 1;
+}
+
+.achievement-description-heading {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.achievement-description-content {
+  font-size: 1rem;
+}
+
+.achievement-link {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.achievement-image {
+  flex: 1.5;
+}
+.achievement-image-container {
+  display: flex;
+  justify-content: center;
+}
+.achievement-image-container img {
+  width: 70%;
+  border-radius: 16px;
+}
+ul {
+  margin-left: 4%;
+}
+
+.breakpoint-container {
+  display: flex;
+  justify-content: space-around;
+}
+.breakpoint-left {
+  flex: 10;
+}
+.breakpoint-middle {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  color: rgb(174, 96, 1);
+}
+.breakpoint-right {
+  flex: 10;
+}
+.breakpoint-right hr,
+.breakpoint-left hr {
+  margin-top: 5px;
+  color: rgb(174, 96, 1);
+}
+@media (min-width: 600px) and (max-width: 989px) {
+  .achievement {
+    width: 90%;
+  }
+  .achievement-image-container img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .achievement {
+    width: 90%;
+  }
+  .achievement-block {
+    display: block;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  .achievement-image-container img {
+    width: 100%;
+  }
+}
